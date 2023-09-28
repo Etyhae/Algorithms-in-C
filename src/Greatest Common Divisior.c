@@ -1,7 +1,10 @@
+// Task
+// Find the greatest common divisor of two numbers
+
 #include <stdio.h>
 #include <stdbool.h>
 
-int fing_gcd(int first, int second) {
+int fing_gcd(unsigned int first, unsigned int second) {
     int division = 0;
     int rem = 0;
     
@@ -21,12 +24,4 @@ int fing_gcd(int first, int second) {
     
     return second;
     
-}
-
-int main()
-{
-    int res = fing_gcd(106480, 2096);
-    printf("%d", res);
-
-    return 0;
 }
